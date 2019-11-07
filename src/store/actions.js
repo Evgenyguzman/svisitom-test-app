@@ -17,7 +17,6 @@ export function signIn(data) {
   return async(dispatch, getState) => {
     try {
       const res = await FakeAuthService.signIn(data)
-      console.log('Response is:', res)
       if(res) dispatch({ type: C.SIGN_IN, data })
       return res
     } catch (error) {
