@@ -1,4 +1,4 @@
-Тестоваое задание для Svisitom.ru
+Тестовое задание для Svisitom.ru
 
 ## Available Scripts
 
